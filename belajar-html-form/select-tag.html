@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Select-Tag</title>
+  </head>
+  <body>
+    <!-- Contoh penggunaan select, selected, multiple size, dan option group -->
+    <form action="">
+      <label for="hobi">Hobi:</label>
+      <select name="hobi" id="hobi">
+        <optgroup label="Coding">
+          <option value="javascript">JavaScript</option>
+          <option value="php">PHP</option>
+          <option value="python">Python</option>
+        </optgroup>
+        <optgroup label="Gaming">
+          <option value="mobile_legend">Mobile Legend</option>
+          <option value="pubg_mobile">PUBG Mobile</option>
+          <option value="pou">Pou</option>
+        </optgroup>
+        <optgroup label="Sports">
+          <option value="soccer" selected>Soccer</option>
+          <option value="badminton">Badminton</option>
+          <option value="basketball">Basketball</option>
+        </optgroup>
+      </select>
+      <button type="submit">Kirim leng!</button>
+    </form>
+  </body>
+</html>

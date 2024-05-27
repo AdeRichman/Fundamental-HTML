@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML FORM</title>
+    <h1>Latihan FORM</h1>
+  </head>
+  <body>
+    <form>
+      <!-- Contoh penggunaan Label, Input, Text, Username, id, dan for -->
+      <label for="username">username:</label>
+      <input type="text" id="username" />
+      <br />
+      <!-- Contoh penggunaan Password -->
+      <label for="password">password:</label>
+      <input type="password" id="password" />
+      <br />
+      <!-- Contoh penggunaan Radio dan Name -->
+      <input type="radio" name="jeniskelamin" id="Pria" value="pria""><label for="Pria"
+        >Pria</label
+      >
+      <input type="Radio" name="jeniskelamin" id="Wanita" value="Wanita" /><label for="Wanita"
+        >Wanita</label
+      >
+      <br />
+      <!-- Contoh penggunaan Checkbox -->
+      <label>Hobby:</label>
+      <br />
+      <input type="checkbox" name="Mendaki" id="Mendaki" value="Mendaki" /><label for="Mendaki">Mendaki</label>
+      <input type="checkbox" name="Berenang" id="Berenang" value="Berenang"/><label for="Berenang"
+        >Berenang</label
+      >
+      <input type="checkbox" name="Tidur" id="Tidur" value="Tidur"/><label for="Tidur">Tidur</label>
+      <br />
+      <!-- Contoh penggunaan Submit, Reset, Button, dan Value. (tidak disarankan menggunakan tag input karna sudah ada tag button ) -->
+      <input type="submit" value="Kirim Su!" />
+      <input type="reset" value="Salah ketik ya leng ?" />
+      <br />
+      <!-- Contoh penggunaan Submit, Reset, dan Button yang benar menggunakan tag Button -->
+      <label>Button yang benar</label>
+      <br />
+      <button type="submit">kirim leng</button>
+      <button type="reset">salah ketik ya leng?</button>
+      <br />
+      <hr />
+      <br />
+      <!-- Contoh penggunaan text area -->
+      <textarea name="Comments" id="Comments">Comments...</textarea>
+      <button type="submit">Kirim</button>
+      <br />
+      <label for="Comments">Write your comments in here!</label>
+      <br />
+      <hr />
+      <!-- Contoh penggunaan dropdown/select -->
+      <label for="Gunung">Gunung Terindah</label>
+      <select name="Gunung" id="Gunung">
+        <option value="Krakatau">Krakatau</option>
+        <option value="Rinjani">Rinjani</option>
+        <option value="Semeru">Semeru</option>
+        <option value="Gamnokora">Gamnokora</option>
+      </select>
+      <button type="submit">Kirim</button>
+      <br />
+      <hr />
+      <br />
+    </form>
+    <table border="1" cellspacing="0" cellpadding="10">
+      <tr>
+        <td align="right"><label for="gunungterindah">Gunung Terindah</label></td>
+        <td align="left">
+          <select name="Gunungterindah" id="gunungterindah">
+            <option value="Gunung Krakatau">Krakatau</option>
+            <option value="Gunung Rinjani">Rinjani</option>
+            <option value="Gunung Semeru">Semeru</option>
+            <option value="Gunung Gamnokora">Gamnokora</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td align="right"><label for="username">username:</label></td>
+        <td><input type="text" id="username" /></td>
+      </tr>
+      <tr>
+        <td align="right"><input type="submit" value="Kirim Su!" /></td>
+        <td><button type="reset">salah ketik ya leng?</button></td>
+      </tr>
+      <tr>
+        <td align="right">Kolom 1</td>
+        <td align="left">Kolom 2</td>
+      </tr>
+      <tr>
+        <td align="right"> <input type="radio" name="jeniskelamin" id="Pria""><label for="Pria"
+            >Pria</label
+          ></td>
+          <td> <input type="Radio" name="jeniskelamin" id="Wanita" /><label for="Wanita"
+            >Wanita</label
+          ></td>
+      </tr>
+      <tr>
+        <td> <label for="Comments">Write your comments in here!</label></td>
+        <td align="left"> <textarea name="Comments" id="Comments">Comments...</textarea></td>
+      </tr>
+      <tr>
+        <td align="right"><button type="submit">kirim leng</button></td>
+        <td><button type="reset">salah ketik ya leng?</button></td>
+      </tr>
+    </table>
+    <hr />
+    <br />
+</html>
